@@ -11,7 +11,7 @@ softdepend:
 permissions:
   fakepop.use:
     description: 查看假人数状态
-    default: true
+    default: op
   fakepop.admin:
     description: 打开管理表单、增删改假玩家名单、重载配置
     default: op
