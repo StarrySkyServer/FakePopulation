@@ -1,0 +1,17 @@
+name: FakePopulation
+main: com.fakepopulation.Main
+version: "1.0.0"
+author: szzz666
+api: ["1.0.0"]
+description: 服务器在线人数伪造插件
+softdepend:
+  - StarrySkyLink
+  - Tips
+
+permissions:
+  fakepop.use:
+    description: 查看假人数状态
+    default: true
+  fakepop.admin:
+    description: 打开管理表单、增删改假玩家名单、重载配置
+    default: op
